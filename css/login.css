@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+#memberForm{
+	width: 20%;
+	height: 50%;
+	font-size: 20px;
+	margin: auto;
+	margin-left: 42%;
+	margin-top: 2%;
+}
+.input-inf{
+	text-align: left;
+	padding: 10px;
+}
+#contentTitle{
+	margin-top: 10%;;
+	margin-left: 25%;
+	font-family:"微軟正黑體";
+	font-weight:bold;
+	color: #4D3F37;
+}
+#btn-member {
+	width: 150px;
+	height: 40px;
+	outline: none;
+	margin-left: 18%;
+	margin-top: 10%;
+}
+#btn-member:active{
+	opacity: 80%;
+	background-color: #4D3F37;
+	outline: none;
+}
+#exampleInputEmail1{
+	width: 70%;
+}
+#exampleInputPassword1{
+	width: 70%;
+}
+#exampleInputPasswordCheck{
+	width: 70%;
+}
+#exampleInputName{
+	width: 70%;
+}
+.form-check{
+	margin-left: 5%;
+	margin-top: 20px;
+}
+#exampleInputID1{
+	width: 70%;
+}
+#footer{
+	display:inline-block;
+	margin-top:1%;
+}
+#memberForm{
+	padding-bottom: 5%;
+}
+#test{
+	width: 100px;
+	height: 100px;
+}
+#id{
+	width: 70%;
+}
+#email{
+	width: 70%;
+}
+#password{
+	width: 70%;
+}

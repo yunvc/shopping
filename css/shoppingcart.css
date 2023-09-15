@@ -1,0 +1,79 @@
+@charset "utf-8";
+#Shoppingcart_title
+{
+	margin-top: 150px;
+	margin-left: 150px;
+	font-family:"微軟正黑體";
+	font-weight:bold;
+	color: #4D3F37;
+}
+.NT
+{
+	color:red;
+}
+#confirm_table
+{
+	margin-left:auto; 
+	margin-right:auto;
+	width: 70%;
+	style-line-height: 50px;
+}
+#tr_table
+{
+	text-align:center;
+	background-color: #C1B1A8;
+}
+.th_table
+{
+	color: #4D3F37;
+}
+.tr1_table
+{
+	text-align:center;
+}
+.th_table_thing
+{
+	height:100px;
+}
+.image
+{
+	width:80px;
+	height:80px;
+}
+.image_delete
+{
+	width:20px;
+	height:20px;
+}
+#allconfirm
+{
+	margin-left:60%; 
+}
+#allmoney
+{
+	color: red;
+	font-weight:bold;
+	font-size:19px;
+	margin-left:73%; 
+}
+#continuebtn
+{
+    color: #4D3F37;
+    background-color: #DCD3CE;
+    border: none;
+	width:80px;
+	height:40px;
+}
+#nextbtn
+{
+    color: #4D3F37;
+    background-color: #DCD3CE;
+	border:none;
+	width:80px;
+	height:40px;
+	margin-left: 650px;
+}
+#priceform
+{
+	text-align:center;
+}

@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>註冊會員 | Chihuahua</title>
+<link href="css/bootstrap-4.0.0.css" rel="stylesheet" type="text/css">
+<link href="css/login.css" rel="stylesheet" type="text/css">
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+<!--
+
+      function name(){
+            var na = document.getElementById("id").value;                           
+            return na;
+        }
+ function email(){
+            var em = document.getElementById("email").value;                           
+            return em;
+        }
+        function password() {
+            var pw = document.getElementById("password").value;
+            return pw;
+        }
+
+        function send() {
+            var n, e,p;
+            n = name();
+			e = email();
+            p = password();         		
+	        sessionStorage.setItem('name',n);
+			sessionStorage.setItem('email',e);
+	        sessionStorage.setItem('password',p);		
+			alert("註冊成功");
+			window.location.href="login.html";
+			
+        }
+//-->
+</script>	
+<style type="text/css">
+.data {
+}
+</style>	
+</head>
+
+<body>
+<div id="fixedMenu">	
+<div class="primary_header">
+	<nav class="navbar fixed-top navbar-expand-lg "> 
+	  <a class="navbar-brand" href="index.html">
+	  <img id="chihuahua" src="images/name.png" alt=""/>
+	  </a>
+
+		  <ul class="secondary_header" id="menu">
+			  <li><a href="成員分工.html">成員分工</a></li>
+        <li><a href="#">OUTER</a>
+			<ul>
+                <li><a href="overcoat.html">OVERCOAT 大衣</a>
+                </li>
+
+            </ul>
+		</li>
+        <li><a href="#">TOP</a>
+			<ul>
+				<li><a href="dress.html">DRESS 洋裝</a>
+                </li>
+            </ul>
+	    </li>
+        <li><a href="#">BOTTOM</a>
+			<ul>
+                <li><a href="plants.html">PANTS 長褲</a>
+                </li>
+            </ul>
+	    </li>   
+	</ul>		  
+
+		
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+	    <ul class="navbar-nav mr-auto">
+		  <li class="dropdown"> 
+			  <a  href="index.html" >
+				  <img src="images/home.png"  alt=""/>
+			  </a>
+          </li>
+			
+		  <li class="dropdown"> 
+			  <a  href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  <img src="images/member.png"  alt=""/>
+			  </a>
+	        <div class="dropdown-menu" aria-labelledby="salesDropdown"> 
+				<a class="dropdown-item" href="login.html">會員登入</a> 
+				<a class="dropdown-item" href="register.html">註冊會員</a>
+	           </div>
+          </li>
+			
+		  <li class="dropdown"> 
+			  <a  href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				  <img src="images/search.png" alt=""/>
+			  </a>
+	        <div class="dropdown-menu" aria-labelledby="salesDropdown"> 
+	      		<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+	      		<button class="btn " type="submit">搜尋</button>
+	        </div>
+          </li>
+			
+		    <li class="nav-item dropdown"> 
+			  <a class="nav-link " href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+			  	<img src="images/car.png"  alt=""/> 
+			  </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> 
+	          <div class="dropdown-divider"></div>
+	          <a href="shopping.html"><button class="btn " id="payBtn" type="botton">立即結帳</button></a>
+			</div>
+          </li>
+
+		</ul>
+  	  </div>		
+	</nav>
+</div>	
+</div>
+	
+
+	
+<h2 id="contentTitle">▌註冊會員</h2>	
+<form id="memberForm">
+ <div class="form-group">
+    <label for="exampleInputName">ID</label>
+    <input type="text" class="form-control" id="id" placeholder="Enter Name">
+  </div>	
+  <div class="form-group">
+    <label for="exampleInputEmail1">Email </label>
+    <input type="email" class="form-control" id="email" placeholder="Enter email">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="password" placeholder="Password">
+  </div>
+
+   <button type="button" class="btn btn-primary" id="btn-member" onclick="send()">註冊</button>	
+</form>	
+	
+	
+	
+<footer id="footer">
+  <div class="container">
+	  <br>
+	  <br>
+        <ul>   
+            <li>公司電話｜02-12345678 吉娃娃有限公司</li>
+            <li>電子信箱｜service@chihuahua.com.tw</li>
+            <li>營業時間｜平日09:30-18:00 (午休12:00-13:00)</li>
+        </ul>
+  </div>	
+</footer>
+	
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap-4.0.0.js"></script>	
+</body>
+</html>
